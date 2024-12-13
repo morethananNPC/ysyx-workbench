@@ -61,3 +61,7 @@ else
 # Include rules to build NEMU
 include $(NEMU_HOME)/scripts/native.mk
 endif
+
+Debug:
+	echo $(DIRS-BLACKLIST-y)
+	echo $(DIRS-BLACKLIST)
